@@ -1,0 +1,17 @@
+How to programmatically access and manipulate controls contained within the ASPxGridView's detail row template
+
+
+This example demonstrates how you can respond to insertion of a new master row into the grid to allow an end-user to enter the corresponding details immediately.
+
+In this example, the ASPxGridView is used in master-detail mode. Grid detail rows are represented by an ASPxPageControl, which is placed within the grid's DetailRow template. 
+The ASPxPageControl has two tab pages, which contain different UserControls. 
+The first tab page has an ASPxMemo editor displaying master row description info. The second tab page's content is represented by another ASPxGridView control that maintains master row details.
+By default, the first tab page is active.
+
+After an end-user inserts a new master row into the master grid, it is required to focus this row, open its detail row, make the ASPxPageControl's second tab page active and switch the detail grid to the insert mode.
+
+This behavior is implemented by handling the master ASPxGridView's RowInserting event and the ASPxPageControl's DataBound event.
+
+
+Based on:
+http://www.devexpress.com/Support/Center/e/E257.aspx
