@@ -1,3 +1,14 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Data.cs](./CS/WebSite/App_Code/Data.cs) (VB: [Data.vb](./VB/WebSite/App_Code/Data.vb))
+* [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
+* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
+* [WebUserControl1.ascx](./CS/WebSite/WebUserControl1.ascx) (VB: [WebUserControl1.ascx.vb](./VB/WebSite/WebUserControl1.ascx.vb))
+* [WebUserControl1.ascx.cs](./CS/WebSite/WebUserControl1.ascx.cs) (VB: [WebUserControl1.ascx.vb](./VB/WebSite/WebUserControl1.ascx.vb))
+* [WebUserControl2.ascx](./CS/WebSite/WebUserControl2.ascx) (VB: [WebUserControl2.ascx.vb](./VB/WebSite/WebUserControl2.ascx.vb))
+* [WebUserControl2.ascx.cs](./CS/WebSite/WebUserControl2.ascx.cs) (VB: [WebUserControl2.ascx.vb](./VB/WebSite/WebUserControl2.ascx.vb))
+<!-- default file list end -->
 # How to programmatically access and manipulate controls contained within the ASPxGridView's detail row template
 
 
