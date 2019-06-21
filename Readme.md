@@ -10,6 +10,9 @@
 * [WebUserControl2.ascx.cs](./CS/WebSite/WebUserControl2.ascx.cs) (VB: [WebUserControl2.ascx.vb](./VB/WebSite/WebUserControl2.ascx.vb))
 <!-- default file list end -->
 # How to programmatically access and manipulate controls contained within the ASPxGridView's detail row template
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e1392/)**
+<!-- run online end -->
 
 
 <p>This example demonstrates how you can respond to insertion of a new master row into the grid to allow an end-user to enter the corresponding details immediately.</p><p>In this sample, the ASPxGridView is used in master-detail mode. Grid detail rows are represented by an  ASPxPageControl, which is placed within the grid's <strong>DetailRow</strong> template. <br />
