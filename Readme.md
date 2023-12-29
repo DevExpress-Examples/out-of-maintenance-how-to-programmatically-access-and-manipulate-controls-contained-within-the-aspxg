@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128542101/13.1.4%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E1392)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -15,9 +10,6 @@
 * [WebUserControl2.ascx.cs](./CS/WebSite/WebUserControl2.ascx.cs) (VB: [WebUserControl2.ascx.vb](./VB/WebSite/WebUserControl2.ascx.vb))
 <!-- default file list end -->
 # How to programmatically access and manipulate controls contained within the ASPxGridView's detail row template
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e1392/)**
-<!-- run online end -->
 
 
 <p>This example demonstrates how you can respond to insertion of a new master row into the grid to allow an end-user to enter the corresponding details immediately.</p><p>In this sample, the ASPxGridView is used in master-detail mode. Grid detail rows are represented by an  ASPxPageControl, which is placed within the grid's <strong>DetailRow</strong> template. <br />
